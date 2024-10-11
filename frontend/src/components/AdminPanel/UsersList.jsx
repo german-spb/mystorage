@@ -66,7 +66,7 @@ function UsersList() {
             : null
         }
       </tbody>
-      <div className="file-logout button" onClick={() => logout()} onKeyDown={() => logout()} role="button">logOut</div>
+      
     </table>
     
   );
