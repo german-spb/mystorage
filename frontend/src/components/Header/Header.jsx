@@ -8,7 +8,7 @@ import UserStorage from './UserStorage';
 function Header() {
   const { sessionId, username, currentStorageUser } = useContext(Context);
   
-  console.log(username)
+  
   return (
     <section className="header">
       <div
