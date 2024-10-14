@@ -43,7 +43,7 @@ export default function ContextProvider({children}) {
     setCurrentStorageUser,
   }));
 
-  console.log(username)
+ 
   return (
     <Context.Provider value={memo}>
       {children}
